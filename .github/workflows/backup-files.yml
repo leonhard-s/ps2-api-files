@@ -28,10 +28,10 @@ jobs:
           git config --local user.name "GitHub Action"
       - name: Run file fetcher
         run: |
-          python tools/file_fetcher.py --auto-offset
+          python tools/file_fetcher.py --auto-offset --max_range 1000
       - name: Filter changes
         run: |
-          git add data
+          git add images
           git stash save --keep-index --include-untracked
       - name: Commit and push relevant changes
         continue-on-error: true

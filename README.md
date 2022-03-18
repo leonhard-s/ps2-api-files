@@ -8,7 +8,7 @@ Note that this includes many icons that are not listed in the corresponding `ima
 
 ## Scraping Strategy
 
-Once a day, the file scraper in this repository looks at the highest image ID it knows and proceeds to check the next 10'000 image IDs. If any new files are found, they are then added to the repository.
+Once a day, the file scraper in this repository looks at the highest image ID it knows and proceeds to check the next 1'000 image IDs. If any new files are found, they are then added to the repository.
 
 ### Limitations
 
@@ -16,8 +16,8 @@ This scraping strategy attempts to strike a balance of being reasonably up-to-da
 
 - The scraper only "looks forward", and will not query a given asset ID once a higher ID has been found.
 - It cannot detect existing IDs being updated with new assets, or gaps in the ID sequence being filled later.
-- If new assets are added that are more than 10'000 IDs away from the highest ID found, the scraper will not bother checking it, resulting in it missing out on these new files.
-- If more than 10'000 IDs' worth of assets are added in a single API update, it might take more than one day to complete the scraping process.
+- If new assets are added that are more than 1'000 IDs away from the highest ID found, the scraper will not bother checking it, resulting in it missing out on these new files.
+- If more than 1'000 IDs' worth of assets are added in a single API update, it might take more than one day to complete the scraping process.
 
 If you come across any of these limitations or know of additional ID ranges that are not currently being checked, please [create an issue](https://github.com/leonhard-s/ps2-api-files/issues) so the scraping strategy can be adjusted.
 
