@@ -32,3 +32,9 @@ Additionally, it is recommended to perform a shallow clone of this repository:
     git clone -–depth 1 https://github.com/leonhard-s/ps2-api-files
 
 This will only grab the latest version of all files with minimal repository history, which is generally faster than performing a full clone.
+
+## API Data Backup
+
+This project has a sister repository hosting all static API data in JSON format:
+
+[PS2 API Backup Repository](https://github.com/leonhard-s/ps2-api-backup)
