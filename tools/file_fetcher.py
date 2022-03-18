@@ -69,5 +69,8 @@ if __name__ == '__main__':
                         help='Number of assets to fetch in parallel')
     args = parser.parse_args()
     loop = asyncio.new_event_loop()
+    asset_offset = args.offset
+    if args.auto_offset:
+        asset_offset = find_last_id(args.directory) + 1
     loop.run_until_complete(
-        main(args.directory, args.offset, args.max_range, args.batch_size))
+        main(args.directory, asset_offset, args.max_range, args.batch_size))
