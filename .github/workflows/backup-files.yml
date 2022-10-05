@@ -29,17 +29,11 @@ jobs:
       - name: Run file fetcher
         run: |
           python tools/file_fetcher.py ./images incremental --count 1000
-      - name: Cancel workflow on error
-        if: ${{ failure() }}
-        uses: styfle/cancel-workflow-action@0.10.0
-        with:
-          access_token: ${{ github.token }}
       - name: Filter changes
         run: |
           git add images
           git stash save --keep-index --include-untracked
       - name: Commit and push relevant changes
-        continue-on-error: true
         run: |
           git commit -m "Automatic Asset Update"
           git push origin main

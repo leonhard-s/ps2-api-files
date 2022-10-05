@@ -193,13 +193,19 @@ async def main(args: argparse.Namespace) -> None:
     """
     # Run in the appropriate mode
     if args.mode == 'dump':
-        await dump(args.path, args.max_image_id, args.offset, args.batch_size)
+        coro = dump(args.path, args.max_image_id, args.offset, args.batch_size)
     elif args.mode == 'gapfill':
-        await gapfill(args.path, args.offset, args.batch_size)
+        coro = gapfill(args.path, args.offset, args.batch_size)
     elif args.mode == 'incremental':
-        await incremental(args.path, args.count, args.batch_size)
+        coro = incremental(args.path, args.count, args.batch_size)
     else:
         raise RuntimeError(f'Unknown mode: {args.mode}')
+
+    # Run the coroutine
+    try:
+        await coro
+    except aiohttp.ClientError as err:
+        print(f'Exited with error: {err}')
 
     # NOTE: The aiohttp session closing immediately before the program exits
     # can prevent some cleanup tasks from running. This is a simple workaround
