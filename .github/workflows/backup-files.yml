@@ -34,6 +34,7 @@ jobs:
           git add images
           git stash save --keep-index --include-untracked
       - name: Commit and push relevant changes
+        continue-on-error: true
         run: |
           git commit -m "Automatic Asset Update"
           git push origin main
