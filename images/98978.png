@@ -1,0 +1,737 @@
+
+
+
+
+
+
+
+
+
+
+ 
+
+  
+
+ 
+  
+ 
+  
+ 
+
+
+ 
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+  
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--meta name="google-site-verification" content="NEED TO GET" /-->
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	<meta name="google-site-verification" content="HDea7GcTlDMfWd3QDcfDA-jFsoYR8rni2gYm53gtWxo" />
+		<meta name="googlebot" content="noodp"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="icon" type="image/gif" href="https://www.daybreakgames.com/images/global/favicon.gif?v=1187449510" />
+
+<meta name="description" content="daybreakgames.com is Daybreak Game Company's ultimate online gaming destination, providing immersive entertainment for your PC and Console.">
+
+	<link rel="publisher" href="https://plus.google.com/+daybreakgames/" />
+
+
+
+			<meta property="og:site_name" content="Daybreak Game Company" />
+				<meta property="og:title" content="Ultimate Online Gaming Destination | Daybreak Game Company" />
+				<meta property="og:description" content="daybreakgames.com is Daybreak Game Company's ultimate online gaming destination, providing immersive entertainment for your PC and Console." />
+				<meta property="og:image" content="https://www.daybreakgames.com/images/global/social-share-logo.jpg?v=521722456" />
+	
+			<meta name="twitter:card" content="summary" />
+				<meta name="twitter:site" content="@daybreakgames" />
+				<meta name="twitter:title" content="Ultimate Online Gaming Destination | Daybreak Game Company" />
+				<meta name="twitter:description" content="daybreakgames.com is Daybreak Game Company's ultimate online gaming destination, providing immersive entertainment for your PC and Console." />
+				<meta name="twitter:image" content="https://www.daybreakgames.com/images/global/social-share-logo.jpg?v=521722456" />
+	
+<title>Ultimate Online Gaming Destination | Daybreak Game Company</title>
+
+
+																																												<link rel="stylesheet" href="https://www.daybreakgames.com/minify-css?locale=en_US&files=browserErrors/browserErrors^global-brand-bar/global-brand-bar^footer-alerts^bootstrap^global_dgc_footer^core^components^_pages/home&v=1789400095" type="text/css" />
+
+<script type="text/javascript">
+
+
+var globs = globs || {};
+var webReg = webReg || {};
+
+globs.wdl = globs.wdl || {};
+globs.wdl.gameName = "Daybreak Game Company";
+globs.wdl.gameCode = "DGC";
+globs.wdl.theme = "dgc";
+globs.wdl.game = "dgc";
+globs.wdl.sitePrefix = "dgc";
+globs.wdl.scope = "full site";
+globs.wdl.business = "mktg";
+globs.wdl.language = "en";
+globs.wdl.pageID = "home";
+globs.wdl.pageType = "homePages";
+globs.wdl.env = "live";
+globs.wdl.cid = "";
+globs.wdl.productArray = [];
+globs.wdl.skuArray = [];
+globs.wdl.username = "";
+globs.wdl.userLoggedIn = false;
+globs.wdl.gvidEnabled = true;
+globs.wdl.wdlCookDNT = false;
+globs.wdl.googleAnalyticsId = '';
+globs.wdl.googleAnalyticsIdGA4 = 'G-3XRT4F5G9S';
+        globs.wdl.cookieWhitelist = ['wdlCookDNT', 'wr-underage', 'saw-cookie-preferences'];
+
+globs.soelocale = "en_US";
+globs.urlparameters = {};
+
+globs.urls = globs.urls || {};
+globs.urls.login = "/login";
+globs.urls.logout = "https://www.daybreakgames.com/j_spring_cas_security_logout";
+globs.urls.returnURL = "https://www.daybreakgames.com";
+globs.urls.returnURL_encoded = "https%3A%2F%2Fwww.daybreakgames.com";
+globs.urls.downloadURL = "";
+globs.urls.uramRootUrl = "https://account.daybreakgames.com"; globs.urls.uramAjaxUrl = "https://account.daybreakgames.com";
+globs.urls.dcsRoot = "https://assets.daybreakgames.com/query";
+globs.urls.censusUrl = "https://census.daybreakgames.com";
+globs.urls.socialServiceURL = "https://social.daybreakgames.com";
+globs.urls.appengRestUrl = "https://ar.daybreakgames.com";
+globs.urls.helpUrl = "https://help.daybreakgames.com";
+globs.urls.supportUrl = "https://help.daybreakgames.com";
+globs.urls.contactUsUrl = "https://help.daybreakgames.com";
+globs.urls.installerUrl = "https://launch.daybreakgames.com/installer";
+globs.urls.forumRootUrl = "https://forums.daybreakgames.com";
+globs.urls.soeRootUrl = "https://www.daybreakgames.com";
+globs.urls.privacyPolicyUrl = "https://www.daybreakgames.com/privacy?locale=en_US";
+globs.urls.cookiePolicyUrl = "https://www.daybreakgames.com/cookies?locale=en_US";
+globs.urls.eventsProxyUrl = "https://webevents.daybreakgames.com/events";
+
+globs.urls.pacmanRoot = "/goto?type=afterReg&targetUrlKey=pacmanRoot&theme=dgc&locale=en_US";
+globs.urls.camAmHome = "/goto?type=afterReg&targetUrlKey=camAmHome&theme=dgc&locale=en_US";
+globs.urls.camEnterActivationCode = "/goto?type=afterReg&targetUrlKey=camEnterActivationCode&theme=dgc&locale=en_US&gameCode=DGC&service=https%3A%2F%2Fwww.daybreakgames.com";
+globs.urls.camUpdateAccountInfo = "/goto?type=afterReg&targetUrlKey=camUpdateAccountInfo&theme=dgc&locale=en_US";
+globs.urls.camSubscriptionsInfo = "/goto?type=afterReg&targetUrlKey=camMembershipInfo&theme=dgc&locale=en_US&gameCode=DGC";
+globs.urls.camUpdateOptIns = "/goto?type=afterReg&targetUrlKey=camUpdateOptIns&theme=dgc&locale=en_US";
+globs.urls.camStationCashBalance = "/goto?type=afterReg&targetUrlKey=camStationCashBalance&theme=dgc&locale=en_US";
+globs.urls.camPaymentHistory = "/goto?type=afterReg&targetUrlKey=camPaymentHistory&theme=dgc&locale=en_US";
+globs.urls.camPaymentSources = "/goto?type=afterReg&targetUrlKey=camPaymentSources&theme=dgc&locale=en_US";
+globs.urls.camParentalControlsParentalControls = "/goto?type=afterReg&targetUrlKey=camParentalControlsParentalControls&theme=dgc&locale=en_US";
+globs.urls.dlcBuyDLCWithSkuAndMOPEntryPoint = "/goto?type=afterReg&targetUrlKey=dlcBuyDLCWithSkuAndMOPEntryPoint&theme=dgc&locale=en_US";
+globs.urls.dlcBuyDLContentFlow = "/goto?type=afterReg&targetUrlKey=dlcBuyDLContentFlow&theme=dgc&locale=en_US";
+globs.urls.dlcPreorderEntry = "/goto?type=afterReg&targetUrlKey=dlcPreorderEntry&theme=dgc&locale=en_US";
+globs.urls.csgCsgPurchaseFlow = "/goto?type=afterReg&targetUrlKey=csgCsgPurchaseFlow&theme=dgc&locale=en_US";
+globs.urls.betaBetaRegistration = "/goto?type=afterReg&targetUrlKey=betaBetaRegistration&theme=dgc&locale=en_US";
+globs.urls.betaSignUpForBetaRedirect = "/goto?type=afterReg&targetUrlKey=betaSignUpForBetaRedirect&theme=dgc&locale=en_US";
+globs.urls.commerceTryBuyOrActivate = "/goto?type=afterReg&targetUrlKey=commerceTryBuyOrActivate&theme=dgc&locale=en_US";
+globs.urls.commerceKronosDeepEntry = "/goto?type=afterReg&targetUrlKey=commerceKronosDeepEntry&theme=dgc&locale=en_US";
+globs.urls.commerceAllAccessFlow = "/goto?type=afterReg&targetUrlKey=commerceAllAccessFlow&theme=dgc&locale=en_US";
+globs.urls.hardgoodBuyAuthenticatorFlow = "/goto?type=afterReg&targetUrlKey=hardgoodBuyAuthenticatorFlow&theme=dgc&locale=en_US";
+globs.urls.linkWalletFundWallet = "/goto?type=afterReg&targetUrlKey=linkWalletFundWallet&theme=dgc&locale=en_US";
+globs.urls.linkWalletFundWalletWithMOP = "/goto?type=afterReg&targetUrlKey=linkWalletFundWalletWithMOP&theme=dgc&locale=en_US";
+globs.urls.membershipMembership = "/goto?type=afterReg&targetUrlKey=camSubscr_iptionsInfo&theme=dgc&locale=en_US";
+globs.urls.membershipMembershipWithSku = "/goto?type=afterReg&targetUrlKey=membershipMembershipWithSku&theme=dgc&locale=en_US";
+globs.urls.regForgotStationName = "/goto?type=afterReg&targetUrlKey=regForgotStationName&theme=dgc&locale=en_US";
+globs.urls.regForgotPassword = "/goto?type=afterReg&targetUrlKey=regForgotPassword&theme=dgc&locale=en_US";
+globs.urls.currencyConversion = "/goto?type=afterReg&targetUrlKey=currencyConversion&theme=dgc&locale=en_US";
+
+
+webReg.isBeta = false;
+webReg.betaID = -1;
+webReg.underAgeMessage = "We're sorry, but you are unable to sign up for a Daybreak Account at this time.";
+webReg.popoverPos = "left";
+webReg.theme = "dgc"; 
+</script>
+</head>
+
+<body class="hover-enabled home en_US ">
+
+				
+				
+
+<script type="text/template" class="non-member">
+	<a href="https://www.daybreakgames.com/allaccess" class="top-level dropdown-link">
+		<span id="brandBarIsMember">Get</span>
+		<span id="allAccessLogo">All Access</span>
+	</a>
+	<span class="down-arrow"></span>
+	<ul class="dropdown-menu AA non-member">
+		<li id="allAccessTitle">Try All Access today and enjoy these benefits:</li>
+		<li><span class="promo-title">Premium benefits</span> in participating DGC games</li>
+		<li><span class="promo-title">10% off unlimited</span> marketplace purchases</li>
+		<li><span class="promo-title">500 Daybreak Cash Reward</span> to claim each month</li>
+		<li><span class="promo-title">Special membership promotions</span> and offers</li>
+		<li id="findOutMore"><a href="https://www.daybreakgames.com/allaccess" class="btn find-out-more-btn btn-primary">Find out more <span class="raquo">&raquo;</span></a></li>
+	</ul>
+</script>
+
+<script type="text/template" class="member">
+	<a href="/goto?type=afterReg&targetUrlKey=camMembershipInfo&theme=dgc&locale=en_US&gameCode=DGC&theme=dgc&service=https://www.daybreakgames.com" class="top-level dropdown-link">
+		<span id="brandBarIsMember">Get</span>
+		<span id="allAccessLogo">All Access</span>
+	</a>
+	<span class="down-arrow"></span>
+	<ul class="dropdown-menu AA member" >
+		<% if( scGrantClaimed == true) { %>
+			<% if( !expirationDate ) { %>
+				<li id="scGrant"><span class="rewards">500 DBC Reward</span><br>Date of next reward: <%- scGrantDate %></li>
+			<% } %>
+		<% } else { %>
+			<li id="scGrant"><span class="rewards">500 DBC Reward</span><br>Date this reward expires: <%- scGrantDate %></li>
+		<% } %>
+		<% if( expirationDate ) { %>
+			<li>Your membership expires on <%- expirationDate %>.<br>Add time so you don't miss your next 500 DBC reward by <a href="#" id="membershipLink">clicking here</a>.</li>
+		<% } %>
+			<li id="memberInfoLink">
+				<a href="/goto?type=afterReg&targetUrlKey=camMembershipInfo&theme=dgc&locale=en_US&gameCode=DGC&theme=dgc&service=https://www.daybreakgames.com">View my membership info <span class="raquo">&raquo;</span></a>
+			</li>
+								</ul>
+</script>
+
+<div id="brandBar" class="navbar navbar-default navbar-fixed-top ">
+	<div id="brandBarAlign" class="container">
+		<div id="brandLogo" class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#brandBarMenu" aria-expanded="false" aria-controls="brandBarMenu">
+				<i id="globalNavState" class="fa fa-bars"></i>
+			</button>
+						<a href="/login" class="auth-link mobile-auth hidden-sm hidden-md hidden-lg" id="loginLink">Log in</a>
+					</div>
+					<div id="brandBarMenu" class="navbar-collapse collapse">
+				<ul id="brandBarOptions" class="nav navbar-nav navbar-right">
+																	<li class="" id="brandBarCreateAccount">
+							<a href="/register" class="auth-link top-level" id="accountCreate">Create an Account</a>
+						</li>
+																		<li class="dropdown-container" id="brandBarAccountOptions">
+							<a href="/login" class="auth-link top-level dropdown-link" id="loginLink">Log in</a>
+														<span class="down-arrow"></span>
+								<ul class="dropdown-menu">
+		<li class="update-item"><a href="/goto?type=afterReg&targetUrlKey=camAmHome&theme=dgc&locale=en_US&service=https://www.daybreakgames.com">Account Management</a></li>
+		<li><a href="/goto?type=afterReg&targetUrlKey=camMembershipInfo&theme=dgc&locale=en_US&gameCode=DGC&service=https://www.daybreakgames.com">Membership Info</a></li>
+		<li><a href="/goto?type=afterReg&targetUrlKey=camEnhancedSecurity&theme=dgc&locale=en_US">Enhanced Security</a></li>
+		<li><a href="/goto?type=afterReg&targetUrlKey=camEnterActivationCode&theme=dgc&locale=en_US&gameCode=DGC&service=https%3A%2F%2Fwww.daybreakgames.com">Enter Activation Code</a></li>
+		<li><a href="/goto?type=afterReg&targetUrlKey=camUpdateOptIns&theme=dgc&locale=en_US&service=https://www.daybreakgames.com">Join newsletter</a></li>
+						<li><a href="/goto?type=afterReg&targetUrlKey=linkWalletFundWallet&theme=dgc&locale=en_US&service=https://www.daybreakgames.com">Buy Daybreak Cash</a></li>
+					</ul>
+													</li>
+																						<li id="brandBarAllAccess" class="dropdown-container">
+													</li>
+																					<li>
+							<a href="https://help.daybreakgames.com" class="top-level">Support</a>
+						</li>
+														</ul>
+			</div>
+			</div>
+</div>
+
+	
+		
+<div id="browserErrors">
+	<noscript>
+		<div id="noscript" class="soeErrMsg">
+			<h3 class="soeErrMsgTitle">
+				JavaScript Required
+			</h3>
+			<div class="soeErrMsgBody">
+				JavaScript must be enabled in order to view this site correctly.  Please enable JavaScript by changing your browser options.
+			</div>
+		</div>
+	</noscript>
+
+		<div id="oldBrowser" class="soeErrMsg">
+		<h3 class="soeErrMsgTitle">
+			Browser Update Required
+		</h3>
+		<div class="soeErrMsgBody">
+			In order to fully experience everything <span id="oldBrowserGameName">this site</span> has to offer, you must upgrade your browser.  Please use the links below to upgrade your existing browser.
+			<ul class="browserList">
+				<li class="ffx"><a href="http://www.mozilla.org/en-US/firefox/new/" target="_blank">Mozilla Firefox</a></li>
+				<li class="gc"><a href="https://www.google.com/chrome/" target="_blank">Google Chrome</a></li>
+				<li class="ie"><a href="http://www.microsoft.com/ie" target="_blank">Microsoft Internet Explorer</a></li>
+				<li class="as"><a href="http://support.apple.com/downloads/#safari" target="_blank">Apple Safari</a></li>
+			</ul>
+		</div>
+	</div>
+
+		<div id="noCookies" class="soeErrMsg">
+		<h3 class="soeErrMsgTitle">
+			Cookies Required
+		</h3>
+		<div class="soeErrMsgBody">
+			Cookies must be enabled in order to view this site correctly.  Please enable Cookies by changing your browser options.
+		</div>
+	</div>
+</div>
+			<div id="siteNavBar" class="site-nav-bar navbar navbar-default ">
+						<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#siteNav" aria-expanded="false" aria-controls="siteNav">
+				<span class="navbar-text">MENU <i id="siteNavState" class="fa fa-caret-down"></i></span>
+			</button>
+			<a class="navbar-brand" href="/home">
+																<img src="https://assets-cdn.daybreakgames.com/uploads/dcsclient/000/000/245/721.png?v=1.0" alt="Daybreak Games" />
+			</a>
+		</div>
+		<div id="siteNav" class="navbar-collapse collapse">
+			<ul id="siteNavList" class="nav navbar-nav">
+				<li id="gameWellNav" class="top-level-list-item dropdown-item">
+					<a href="javascript:;" class="site-nav-link dropdown-link top-level" id="gameWellNavLink" data-toggle="dropdown">Games</a>
+					<ul class="mobile-view-list dropdown-menu hidden-sm hidden-md hidden-lg" role="menu" aria-labelledby="gameWellNavLink">
+						<li class="mobile-view-item">
+							<a href="https://www.dcuniverseonline.com" class="visit-anchor" target="_blank">DC Universe Online</a>
+						</li>
+						<li class="mobile-view-item">
+							<a href="https://www.ddo.com" class="visit-anchor" target="_blank">Dungeons &amp; Dragons Online</a>
+						</li>
+						<li class="mobile-view-item">
+							<a href="https://www.everquest.com" class="visit-anchor" target="_blank">EverQuest</a>
+						</li>
+						<li class="mobile-view-item">
+							<a href="https://www.everquest2.com" class="visit-anchor" target="_blank">EverQuest II</a>
+						</li>
+						<li class="mobile-view-item">
+							<a href="https://www.h1z1.com" class="visit-anchor" target="_blank">H1Z1 <span>Battle Royale</span></a>
+						</li>
+						<li class="mobile-view-item">
+							<a href="https://www.lotro.com" class="visit-anchor" target="_blank">The Lord of the Rings Online</a>
+						</li>
+						<li class="mobile-view-item">
+							<a href="https://www.mtgo.com" class="visit-anchor" target="_blank">Magic: The Gathering Online</a>
+						</li>
+						<li class="mobile-view-item">
+							<a href="https://palia.com" class="visit-anchor" target="_blank">Palia</a>
+						</li>
+						<li class="mobile-view-item">
+							<a href="https://www.planetside2.com" class="visit-anchor" target="_blank">PlanetSide 2</a>
+						</li>
+					</ul>
+					<ul class="dropdown-container game-tray pc hidden-xs">
+						<li class="game-tray-element">
+																																	<ul class="game-box-list">
+	<li class="game-box dcuo">
+		<a class="game-box-link" href="https://www.dcuniverseonline.com" target="_blank">
+			<img src="https://www.daybreakgames.com/images/game/download-dcuo.jpg?v=1539699700"/>
+		</a>
+		<a class="game-download-link dgc-slide-button" href="https://launch.daybreakgames.com/installer/DCUO_setup.exe?v=15"><span>DOWNLOAD</span></a>
+		<a href="https://www.dcuniverseonline.com" class="visit-anchor" target="_blank">Visit website</a>
+	</li>
+	<li class="game-box ddo">
+		<a class="game-box-link" href="https://www.ddo.com" target="_blank">
+			<img src="https://www.daybreakgames.com/images/game/download-ddo.jpg?v=2987541507"/>
+		</a>
+		<a class="game-download-link dgc-slide-button" href="https://www.ddo.com/download"><span>DOWNLOAD</span></a>
+		<a href="https://www.ddo.com" class="visit-anchor" target="_blank">Visit website</a>
+	</li>
+	<li class="game-box eq">
+		<a class="game-box-link" href="https://www.everquest.com" target="_blank">
+			<img src="https://www.daybreakgames.com/images/game/download-eq.jpg?v=153392849"/>
+		</a>
+		<a class="game-download-link dgc-slide-button" href="https://launch.daybreakgames.com/installer/EQ_setup.exe?v=15"><span>DOWNLOAD</span></a>
+		<a href="https://www.everquest.com" class="visit-anchor" target="_blank">Visit website</a>
+	</li>
+	<li class="game-box eq2">
+		<a class="game-box-link" href="https://www.everquest2.com" target="_blank">
+			<img src="https://www.daybreakgames.com/images/game/download-eq2.jpg?v=2247008125"/>
+		</a>
+		<a class="game-download-link dgc-slide-button" href="https://launch.daybreakgames.com/installer/EQ2_setup.exe?v=15"><span>DOWNLOAD</span></a>
+		<a href="https://www.everquest2.com" class="visit-anchor" target="_blank">Visit website</a>
+	</li>
+	<li class="game-box h1z1-kk">
+		<a class="game-box-link" href="https://www.h1z1.com/home" target="_blank">
+			<img src="https://www.daybreakgames.com/images/game/download-h1z1-kk.jpg?v=321605025"/>
+		</a>
+		<a class="game-download-link dgc-slide-button" href="https://store.steampowered.com/app/433850/" target="_blank"><span>DOWNLOAD</span></a>
+		<a href="https://www.h1z1.com/home" class="visit-anchor" target="_blank">Visit website</a>
+	</li>
+	<li class="game-box lotro">
+		<a class="game-box-link" href="https://www.lotro.com" target="_blank">
+			<img src="https://www.daybreakgames.com/images/game/download-lotro.jpg?v=3874131344"/>
+		</a>
+		<a class="game-download-link dgc-slide-button" href="https://www.lotro.com/en/download"><span>DOWNLOAD</span></a>
+		<a href="https://www.lotro.com" class="visit-anchor" target="_blank">Visit website</a>
+	</li>
+	<li class="game-box mtgo">
+		<a class="game-box-link" href="https://www.mtgo.com" target="_blank">
+			<img src="https://www.daybreakgames.com/images/game/download-mtgo.jpg?v=2514089605"/>
+		</a>
+		<a class="game-download-link dgc-slide-button" href="https://mtgo.patch.daybreakgames.com/patch/mtg/live/client/setup.exe?v=15"><span>DOWNLOAD</span></a>
+		<a href="https://www.mtgo.com" class="visit-anchor" target="_blank">Visit website</a>
+	</li>
+	<li class="game-box palia">
+		<a class="game-box-link" href="https://palia.com/" target="_blank">
+			<img src="https://www.daybreakgames.com/images/game/download-palia.jpg?v=4060159102"/>
+		</a>
+		<a class="game-download-link dgc-slide-button" href="https://palia.com/#download"><span>DOWNLOAD</span></a>
+		<a href="https://palia.com/" class="visit-anchor" target="_blank">Visit website</a>
+	</li>
+	<li class="game-box ps2">
+		<a class="game-box-link" href="https://www.planetside2.com" target="_blank">
+			<img src="https://www.daybreakgames.com/images/game/download-ps2.jpg?v=3753176901"/>
+		</a>
+		<a class="game-download-link dgc-slide-button" href="https://launch.daybreakgames.com/installer/PS2_setup.exe?v=15"><span>DOWNLOAD</span></a>
+		<a href="https://www.planetside2.com" class="visit-anchor" target="_blank">Visit website</a>
+	</li>
+</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="top-level-list-item"><a class="site-nav-link top-level" href="https://www.daybreakgames.com/news">News</a></li>
+				<li class="top-level-list-item dropdown-item">
+					<a class="site-nav-link dropdown-link top-level hidden-xs" href="javascript:;">About Us</a>
+					<ul class="dropdown-container">
+						<li class="sub-level-list-item"><a href="https://www.daybreakgames.com/about">About Daybreak</a></li>
+						<li class="sub-level-list-item"><a href="https://www.daybreakgames.com/studios">Studios</a></li>
+						<li class="sub-level-list-item"><a href="https://www.daybreakgames.com/careers">Careers</a></li>
+					</ul>
+				</li>
+				<li class="top-level-list-item dropdown-item">
+					<a class="site-nav-link dropdown-link top-level hidden-xs" href="javascript:;">Shop</a>
+					<ul class="dropdown-container">
+						<li class="sub-level-list-item mobile-view-bt"><a href="https://www.daybreakgames.com/daybreakcash">Daybreak Cash</a></li>
+						<li class="sub-level-list-item"><a href="https://www.daybreakgames.com/allaccess">All Access</a></li>
+					</ul>
+				</li>
+				<li class="top-level-list-item"><a class="site-nav-link top-level" href="https://help.daybreakgames.com">Support</a></li>
+				<li class="top-level-list-item"><a class="site-nav-link top-level" href="/goto?type=afterReg&targetUrlKey=camUpdateOptIns&theme=dgc&locale=en_US">Subscribe</a></li>
+			</ul>
+			<ul id="socialIcons" class="nav navbar-nav navbar-right hidden-xs social-icons">
+				<li class="position">
+					<ul class="holder">
+						<li style="background-color:#3B5999;">
+							<a href="https://www.facebook.com/daybreakgames" target="_blank">
+								<i class="fa fa-facebook"></i>
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li class="position">
+					<ul class="holder">
+						<li style="background-color:#00b1ed;">
+							<a href="https://twitter.com/DaybreakGames" target="_blank" class="si-tt"></a>
+						</li>
+					</ul>
+				</li>
+				<li class="position">
+					<ul class="holder">
+						<li style="background-color:#c9050c;">
+							<a href="https://www.youtube.com/c/daybreakgames" target="_blank">
+								<i class="fa fa-youtube-play" style="transform: translate(-1px, 0);"></i>
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li class="position">
+					<ul class="holder">
+						<li style="background-color:#ffffff;">
+							<a href="http://www.twitch.tv/daybreakgames" style="color:#6441A5;" target="_blank">
+								<i class="fa fa-twitch" style="transform: translate(0, 1px);"></i>
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li class="position">
+					<ul class="holder">
+						<li style="background-color:#517FA4;">
+							<a href="https://instagram.com/daybreakgames" target="_blank">
+								<i class="fa fa-instagram"></i>
+							</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div id="dayreakPremier" class="carousel slide" data-ride="carousel" data-interval="7000" data-pause="">
+				<div class="carousel-indicator-wrapper">
+			<p class="official-site"><a href="" id="officialSiteLink" target="_blank">Official Site <i></i></a></p>
+			<ol class="carousel-indicators" id="feed">
+									<li  class="active"  data-target="#dayreakPremier" data-slide-to="0"></li>
+									<li  data-target="#dayreakPremier" data-slide-to="1"></li>
+									<li  data-target="#dayreakPremier" data-slide-to="2"></li>
+									<li  data-target="#dayreakPremier" data-slide-to="3"></li>
+									<li  data-target="#dayreakPremier" data-slide-to="4"></li>
+									<li  data-target="#dayreakPremier" data-slide-to="5"></li>
+									<li  data-target="#dayreakPremier" data-slide-to="6"></li>
+									<li  data-target="#dayreakPremier" data-slide-to="7"></li>
+									<li  data-target="#dayreakPremier" data-slide-to="8"></li>
+							</ol>
+		</div>
+			<div class="carousel-inner" role="listbox">
+					<div class="item  active ">
+				<a href="https://www.dcuniverseonline.com" target="_blank" class="slide dcuo-slide">
+											<img src="https://www.daybreakgames.com/images/carousel/photo_dcuo_logo.png?v=2036885529" class="logo hidden-xs" alt="" />
+									</a>
+			</div>
+					<div class="item ">
+				<a href="https://www.ddo.com" target="_blank" class="slide ddo-slide">
+											<img src="https://www.daybreakgames.com/images/carousel/photo_ddo_logo.png?v=2415678209" class="logo hidden-xs" alt="" />
+									</a>
+			</div>
+					<div class="item ">
+				<a href="https://www.everquest.com" target="_blank" class="slide eq-slide">
+											<img src="https://www.daybreakgames.com/images/carousel/photo_eq_logo.png?v=1935105273" class="logo hidden-xs" alt="" />
+									</a>
+			</div>
+					<div class="item ">
+				<a href="https://www.everquest2.com" target="_blank" class="slide eq2-slide">
+											<img src="https://www.daybreakgames.com/images/carousel/photo_eq2_logo.png?v=1693605629" class="logo hidden-xs" alt="" />
+									</a>
+			</div>
+					<div class="item ">
+				<a href="https://www.h1z1.com" target="_blank" class="slide h1z1-slide">
+											<img src="https://www.daybreakgames.com/images/carousel/photo_h1z1_logo.png?v=945213727" class="logo hidden-xs" alt="" />
+									</a>
+			</div>
+					<div class="item ">
+				<a href="https://www.lotro.com" target="_blank" class="slide lotro-slide">
+											<img src="https://www.daybreakgames.com/images/carousel/photo_lotro_logo.png?v=1929915324" class="logo hidden-xs" alt="" />
+									</a>
+			</div>
+					<div class="item ">
+				<a href="https://www.mtgo.com" target="_blank" class="slide mtgo-slide">
+											<img src="https://www.daybreakgames.com/images/carousel/photo_mtgo_logo.png?v=4083103480" class="logo hidden-xs" alt="" />
+									</a>
+			</div>
+					<div class="item ">
+				<a href="https://palia.com" target="_blank" class="slide palia-slide">
+											<img src="https://www.daybreakgames.com/images/carousel/photo_palia_logo.png?v=1810835346" class="logo hidden-xs" alt="" />
+									</a>
+			</div>
+					<div class="item ">
+				<a href="https://www.planetside2.com" target="_blank" class="slide ps2-slide">
+											<img src="https://www.daybreakgames.com/images/carousel/photo_ps2_logo.png?v=451044561" class="logo hidden-xs" alt="" />
+									</a>
+			</div>
+			</div>
+</div>
+<div class="game-boxes container-fluid">
+			<div class="game-box dcuo">
+			<a href="https://www.dcuniverseonline.com" class="hover-contents" target="_blank">
+				<span>Official Website</span>
+			</a>
+		</div>
+			<div class="game-box ddo">
+			<a href="https://www.ddo.com" class="hover-contents" target="_blank">
+				<span>Official Website</span>
+			</a>
+		</div>
+			<div class="game-box eq">
+			<a href="https://www.everquest.com" class="hover-contents" target="_blank">
+				<span>Official Website</span>
+			</a>
+		</div>
+			<div class="game-box eq2">
+			<a href="https://www.everquest2.com" class="hover-contents" target="_blank">
+				<span>Official Website</span>
+			</a>
+		</div>
+			<div class="game-box h1z1">
+			<a href="https://www.h1z1.com" class="hover-contents" target="_blank">
+				<span>Official Website</span>
+			</a>
+		</div>
+			<div class="game-box lotro">
+			<a href="https://www.lotro.com" class="hover-contents" target="_blank">
+				<span>Official Website</span>
+			</a>
+		</div>
+			<div class="game-box mtgo">
+			<a href="https://www.mtgo.com" class="hover-contents" target="_blank">
+				<span>Official Website</span>
+			</a>
+		</div>
+			<div class="game-box palia">
+			<a href="https://palia.com" class="hover-contents" target="_blank">
+				<span>Official Website</span>
+			</a>
+		</div>
+			<div class="game-box ps2">
+			<a href="https://www.planetside2.com" class="hover-contents" target="_blank">
+				<span>Official Website</span>
+			</a>
+		</div>
+	</div>
+
+
+<div class="dgc-page-footer ">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-7 col-md-6 col-lg-7">
+				<div class="newsletter">
+					<div class="logo">
+						<img src="https://www.daybreakgames.com/web-platform/images/global/dgc-footer-logo.png?v=2355942022" alt="">
+					</div>
+					<div class="newsletter-body">
+						<h6>Email Sign Up</h6>
+						<p>Sign up now to get insider updates on new features, games and special offers from Daybreak Games. You can unsubscribe in one click.</p>
+						<a href="/goto?type=afterReg&targetUrlKey=camUpdateOptIns&theme=dgc&locale=en_US" class="sign-up">Sign Up Now</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-md-6 col-lg-5">
+				<div class="social">
+					<h6>Stay Connected and Follow Us on:</h6>
+					<ul>
+						<li><a href="https://www.facebook.com/daybreakgames" class="icon facebook" target="_blank"><i class="fa fa-facebook fa-2" style="transform: translate(-1px, 0);"></i></a></li>
+						<li><a href="https://twitter.com/DaybreakGames" class="icon twitter" target="_blank"><i></i></a></li>
+						<li><a href="https://www.youtube.com/c/daybreakgames" class="icon youtube" target="_blank"><i class="fa fa-youtube-play fa-2"></i></a></li>
+						<li><a href="http://www.twitch.tv/daybreakgames" class="icon twitch" target="_blank"><i class="fa fa-twitch fa-2" style="transform: translate(0, 1px);"></i></a></li>
+						<li><a href="https://instagram.com/daybreakgames/" class="icon instagram" target="_blank"><i class="fa fa-instagram fa-2"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row links">
+			<div class="col-xs-12">
+				<h6>Daybreak Account</h6>
+				<ul>
+					<li><a href="/register">Create an Account</a></li>
+					<li><a href="/goto?type=afterReg&targetUrlKey=pacmanRoot&theme=dgc&locale=en_US">Account Management</a></li>
+					<li><a href="/goto?type=afterReg&targetUrlKey=camMembershipInfo&theme=dgc&locale=en_US&gameCode=DGC">Membership Info</a></li>
+					<li><a href="/goto?type=afterReg&targetUrlKey=camEnhancedSecurity&theme=dgc&locale=en_US">Enhanced Security</a></li>
+					<li><a href="/goto?type=afterReg&targetUrlKey=camEnterActivationCode&theme=dgc&locale=en_US&gameCode=DGC&service=https%3A%2F%2Fwww.daybreakgames.com">Enter Activation Code</a></li>
+					<li><a href="https://help.daybreakgames.com">Customer Support</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-12">
+				<h6>Games</h6>
+				<ul>
+					<li><a href="https://www.dcuniverseonline.com/" target="_blank">DC Universe Online</a></li>
+					<li><a href="https://www.ddo.com/" target="_blank">Dungeons &amp; Dragons Online</a></li>
+					<li><a href="https://www.everquest.com/" target="_blank">EverQuest</a></li>
+					<li><a href="https://www.everquest2.com/" target="_blank">EverQuest II</a></li>
+					<li><a href="https://www.h1z1.com/home" target="_blank">H1Z1</a></li>
+					<li><a href="https://www.lotro.com/" target="_blank">The Lord of the Rings Online</a></li>
+					<li><a href="https://www.mtgo.com/" target="_blank">Magic: The Gathering Online</a></li>
+					<li><a href="https://palia.com/" target="_blank">Palia</a></li>
+					<li><a href="https://www.planetside2.com/" target="_blank">PlanetSide 2</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-12">
+				<h6>Company Links</h6>
+				<ul>
+					<li><a href="https://www.daybreakgames.com/news">News Feed</a></li>
+					<li><a href="https://www.daybreakgames.com/status?locale=en_US">Server Status</a></li>
+					<li><a href="https://www.daybreakgames.com/news">Press</a></li>
+					<li><a href="https://www.daybreakgames.com/about">About Daybreak</a></li>
+					<li><a href="https://www.daybreakgames.com/studios">Studios</a></li>
+					<li><a href="https://www.daybreakgames.com/careers?locale=en_US">Careers</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-12">
+				<h6>Shop</h6>
+				<ul>
+					<li><a href="https://www.daybreakgames.com/daybreakcash">Daybreak Cash</a></li>
+					<li><a href="https://www.daybreakgames.com/allaccess">Get All Access</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-12">
+									<div class="esrb">
+													<a href="https://www.esrb.org/confirm/soe-confirmation.jsp" class="esrb" target="_blank"><img alt="ESRB Privacy" src="https://assets-cdn.daybreakgames.com/uploads/dcsclient/000/000/223/601.png?v=0.0" border="0" /></a>
+											</div>
+							</div>
+		</div>
+	</div>
+	<div class="bottom">
+		<div class="wrapper">
+			<p class="copyright">&copy;2015-2025 Daybreak Game Company LLC. <span>All Rights Reserved.</span></p>
+			<div class="legal">
+				<ul>
+					<li><a href="https://www.daybreakgames.com/legal?locale=en_US">Legal Notices</a></li>
+					<li><a href="https://www.daybreakgames.com/privacy?locale=en_US">Privacy Policy</a></li>
+					<li><a href="https://www.daybreakgames.com/terms-of-service?locale=en_US">Terms of Service</a></li>
+					<li><a href="https://www.daybreakgames.com/photosensitive?locale=en_US">Photosensitive Warning</a></li>
+					<li><a href="https://www.daybreakgames.com/cookies?locale=en_US">Cookies</a></li>
+					<li><a href="#cookieSettings">Cookie Preferences</a></li>
+					<li><a href="https://help.daybreakgames.com">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+		<div id="footerAlerts">
+		<div class="footer-alert legal-update-notice">
+	<div class="footer-alert-header">
+		<h6>Privacy Policy Changes<div class="footer-alert-close"></div></h6>
+	</div>
+	<div class="footer-alert-body">
+		<p>We have updated our <a href="https://www.daybreakgames.com/privacy" target="_blank">Privacy Policy</a>. Please take a moment to familiarize yourself with our privacy practices.<br/><br/>If you are a resident of California, please view our <a href="https://www.daybreakgames.com/privacy?locale=en_US#privacyCalifornia" target="_blank">California Privacy Disclosure</a>.</p>
+	</div>
+</div>
+<script type="text/javascript">
+	window.DGC = window.DGC || {};
+	window.DGC.legalUpdate = {};
+	window.DGC.legalUpdate.lastUpdate = "2019-12-20";
+	window.DGC.legalUpdate.noticeDuration = 60;
+</script>
+</div>
+
+					<script language="JavaScript" type="text/javascript" src="https://www.daybreakgames.com/minify-js?locale=en_US&files=web-platform/component/browserErrors^web-platform/init^web-platform/helpers/misc^libs/jquery/jquery-2.1.3.min^libs/twitter/bootstrap-3.3.4.min^libs/utils/underscore-min^libs/jquery/plugins/xdr^core^web-platform/component/legal-update^web-platform/helpers/scroll-to&v=20700534"></script>
+		
+
+
+
+		<script>
+		globs.wdl.trackingPageLoadTags = [];
+		globs.wdl.trackingTagGroups = {};
+		globs.wdl.trackingTagGroupsConsented = {};
+	</script>
+
+		
+		
+		<script type="text/javascript" src="/web-platform/scripts/libs/tarteaucitron/1.17.0/tarteaucitron.js"></script>
+
+	<script>
+																																													
+				window.tarteaucitronCustomText = {
+			alertBigPrivacy: 'By clicking \"Accept All Cookies\" you agree to storing cookies from us on DaybreakGames.com or its third party tools to enhance functionality, personalize content, analyze use of the site, and provide social media features. We may also share information about your use of our site with our social media, advertising, and analytics partners.',
+			acceptAll: 'Accept All DaybreakGames.com Cookies',
+			rejectAll: 'Reject All DaybreakGames.com Cookies',
+			personalize: 'Personalize DaybreakGames.com Cookies',
+			privacyUrl: 'Cookie Policy',
+			close: 'Save and Close',
+			title: 'DaybreakGames.com Cookie Preferences',
+			disclaimer: 'You can always change your mind and alter your consent choices by opting out via our <a href=\"https:\/\/www.daybreakgames.com\/cookies?locale=en_US\" target=\"_blank\">Cookie Policy<\/a>.<br\/><br\/>We use necessary cookies to make our site work. We\'d also like to place optional cookies such as analytics and advertising cookies. Please use this Cookie Management Panel to manage your preferences for optional cookies on DaybreakGames.com. This tool will also place a cookie in order to remember your preferences.<br\/><br\/>For more detailed information about the cookies we use, see our <a href=\"https:\/\/www.daybreakgames.com\/cookies?locale=en_US\" target=\"_blank\">Cookie Policy<\/a><i class=\"blank-after\"><\/i>.',
+			noCookie: 'If allowed to run, this service will use tracking cookies.',
+			noCookie_dgcMultiplegtagAw: 'If allowed to run, this service will use tracking cookies, including Google Dynamic Remarketing.',
+			useCookie: 'If allowed to run, this service will use tracking cookies.',
+			useCookieCurrent: 'If allowed to run, this service will use tracking cookies.',
+			useNoCookie: 'If allowed to run, this service will use tracking cookies.'
+		};
+
+							globs.wdl.consentModulesAdd = [ 'gtagPixel' ];
+							globs.wdl.consentModulesRemove = [ 'dgcAnalytics',  'dgcAnalyticsSupport' ];
+		
+							globs.wdl.siteSupportCookies = [ 'alertDismissed',  'wdlLglUpd' ];
+		
+					</script>
+
+					<script language="JavaScript" type="text/javascript" src="https://www.daybreakgames.com/minify-js?locale=en_US&files=web-platform/helpers/buffer^web-platform/track/tracker^web-platform/track/data-layer^web-platform/track/cookie-consent&v=1126625797"></script>
+		
+			<script language="JavaScript" type="text/javascript" src="https://www.daybreakgames.com/minify-js?locale=en_US&files=_pages/home^web-platform/component/global-nav&v=2693364473"></script>
+		
+</body>
+</html>
+
