@@ -8,11 +8,13 @@ Call this script with the --help option for more information.
 
 import argparse
 import asyncio
+import contextlib
 import pathlib
 
 import aiofiles
 import aiohttp
 import yarl
+from PIL import Image
 
 _ENDPOINT = yarl.URL('https://census.daybreakgames.com/')
 
@@ -50,7 +52,7 @@ async def dump(path: pathlib.Path, max_image_id: int, offset: int = 0,
         tasks: list[asyncio.Task[None]] = []
         for image_id in range(offset + 1, max_image_id + 1):
             tasks.append(asyncio.create_task(
-                _download_image(session, path, image_id)))
+                _download_and_verify_image(session, path, image_id)))
             if len(tasks) >= batch_size:
                 await asyncio.gather(*tasks)
                 tasks.clear()
@@ -163,6 +165,38 @@ async def _download_image(session: aiohttp.ClientSession, path: pathlib.Path,
             print(f'{id_str}: not found')
         else:
             print(f'{id_str}: skipped {response.status}')
+
+
+async def _download_and_verify_image(session: aiohttp.ClientSession,
+                                     path: pathlib.Path, image_id: int,
+                                     attempts: int = 5) -> None:
+    """Download and verify the given image file.
+
+    This function will attempt to open the downloaded image file using
+    PIL to ensure it is a valid PNG file. If the file is not valid, it
+    will be deleted and a new download will be attempted.
+
+    :param session: aiohttp session to use for the download.
+    :type session: aiohttp.ClientSession
+    :param path: Output directory to write files to. Any existing files
+        will be overwritten.
+    :type path: pathlib.Path
+    :param image_id: ID of the image to download.
+    :type image_id: int
+    :param attempts: Number of attempts to download a working image.
+    :type attempts: int, optional
+    """
+    filename = path / f'{image_id}.png'
+    for _ in range(attempts):
+        await _download_image(session, path, image_id)
+        with contextlib.suppress(BaseException):
+            with Image.open(filename) as img:
+                img.verify()
+            print(f'{image_id:<6}: verified')
+            return
+        print(f'{image_id:<6}: failed to verify, retrying...')
+        filename.unlink(missing_ok=True)
+    print(f'{image_id:<6}: failed to verify, deleting file')
 
 
 def _find_max_image_id(path: pathlib.Path) -> int:
