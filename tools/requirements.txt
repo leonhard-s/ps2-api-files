@@ -1,4 +1,5 @@
 aiofiles
 aiohttp
+auraxium
 yarl
 Pillow
